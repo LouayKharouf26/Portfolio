@@ -25,6 +25,7 @@ function App() {
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Download CV</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
@@ -242,6 +243,25 @@ function App() {
         
     </div>
       </section>
+      <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Download CV</h2>
+          <p>Here u can Download my CV for more details </p>
+        </div>
+<center>
+        
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+          <a href={require("./LouaykharoufCV.pdf")}  download>
+  <img src={require("./portfoliodownload.png")} alt="CV" width="104" height="142"></img>
+          </a>
+          </div>
+          </center>
+          </div>
+          
+    </section>
+     
       <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -280,8 +300,7 @@ function App() {
 
       </div>
     </section>
-     
-     
+
       
   </main>
     </div>
