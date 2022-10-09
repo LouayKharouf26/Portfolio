@@ -58,9 +58,9 @@ function App() {
            <img src={require("./linkedin1.png")} class="img-fluid" alt='louay'></img>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3>Network Engineering Student &amp; Web Developer.</h3>
+          <h3>Network Engineering Student &amp; Web Developer &amp; Cybersecurity Enthusiast &amp; CTF player &amp; Devops Enthusiast.</h3>
           <p class="fst-italic ">
-              Frontend - Backend - Web security - Forensics 
+              Frontend - Backend - Web security - Forensics - Devops
             </p>
           <div class="row">
               <div class="col-lg-6">
