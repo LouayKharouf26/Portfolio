@@ -33,7 +33,7 @@ function App() {
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Louay Kharouf</h1>
-      <p class="typewriter ">Network Engineering Student | Web Developer </p>
+      <p class="typewriter ">Network Engineering Student | Web Developer | DevOps&Cloud enthusiast </p>
       <div class="social-links">
         <a href="https://www.facebook.com/louay.kharouf/" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://github.com/Louaykharouf26" class="google-plus"><i class="bx bxl-github"></i></a>
@@ -209,7 +209,7 @@ function App() {
       <div class="container" data-aos="fade-up">
       <div class="section-title">
           <h2>Projects</h2>
-          <p>Here is some of my projects</p>
+          <p>Here is some of my projects the code of each project is in my github</p>
           </div>
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
           <div class="container">
@@ -218,9 +218,9 @@ function App() {
     <img src={require("./background2.jpg")} class="ctfprojet" alt='louay'></img>
     <h3>CTF Plateform</h3>
     <p>Link for the project :</p>
-    <a href='https://ctf-plateform-front.netlify.app/'>ctf-plateform-front.netlify.app/</a>
-    <p>I used html/css/JS to create the front of a ctf plateform </p>
-    <p>Technology Used : HTML CSS JS</p>
+    
+    <p>Example of a CTF plateform </p>
+    <p>Technology Used : Laravel</p>
     </div>
     <div class="col">
     <img src={require("./Tmkiin.png")} class="tmkiinprojet" alt='louay'></img>
@@ -233,6 +233,12 @@ function App() {
     <h3 class="wiin">WiiN</h3>
     <p class="desc">This project is to propose services that exists near to the location of the user  </p>
     <p p class="tech">Technology Used : Laravel</p>
+    </div>
+    <div class="row">
+    <img src={require("./OnlineTest.png")} class="testinyprojet" alt='louay'></img>
+    <h3 class="testiny">Testiny</h3>
+    <p class="testinydesc">Web application for recruiters to test the devolopers  </p>
+    <p p class="tech2">Technology Used : ReactJS NestJS MySQL</p>
     </div>
   </div>
 
