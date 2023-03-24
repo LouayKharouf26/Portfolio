@@ -33,7 +33,8 @@ function App() {
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Louay Kharouf</h1>
-      <p class="typewriter ">Network Engineering Student | Web Developer | DevOps&Cloud enthusiast </p>
+      <p class="typewriter ">Network Engineering Student @ INSAT | CTF Player</p>
+      <p  class="typewriter ">Web Developer | DevOps&Cloud enthusiast</p>
       <div class="social-links">
         <a href="https://www.facebook.com/louay.kharouf/" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://github.com/Louaykharouf26" class="google-plus"><i class="bx bxl-github"></i></a>
@@ -72,7 +73,7 @@ function App() {
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>2nd year bachelor degree</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
@@ -108,6 +109,14 @@ function App() {
     <span class="skill">Forensics<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
+  <div class="progress">
+    <span class="skill">Linux<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Docker<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
   </div>
   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
   <div class="progress">
@@ -119,11 +128,19 @@ function App() {
     <ProgressBar completed={50} />
   </div>
   <div class="progress">
+    <span class="skill">NestJS<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
     <span class="skill">MySQL<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
   <div class="progress">
     <span class="skill">Web Security<i class="val">30%</i></span>
+    <ProgressBar completed={30} />
+  </div>
+  <div class="progress">
+    <span class="skill">K8S<i class="val">30%</i></span>
     <ProgressBar completed={30} />
   </div>
   </div>
@@ -211,43 +228,90 @@ function App() {
           <h2>Projects</h2>
           <p>Here is some of my projects the code of each project is in my github</p>
           </div>
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-    <img src={require("./background2.jpg")} class="ctfprojet" alt='louay'></img>
-    <h3>CTF Plateform</h3>
-    <p>Link for the project :</p>
-    
-    <p>Example of a CTF plateform </p>
-    <p>Technology Used : Laravel</p>
-    </div>
-    <div class="col">
-    <img src={require("./Tmkiin.png")} class="tmkiinprojet" alt='louay'></img>
-    <h3>Tmkiin Insurance</h3>
-    <p>This project is to manage the health insurance and the car insurance for the users </p>
-    <p>Technology Used : Laravel</p>
-   </div>
-    <div class="col">
-    <img src={require("./winn.png")} class="wiinprojet" alt='louay'></img>
-    <h3 class="wiin">WiiN</h3>
-    <p class="desc">This project is to propose services that exists near to the location of the user  </p>
-    <p p class="tech">Technology Used : Laravel</p>
-    </div>
-    <div class="row">
-    <img src={require("./OnlineTest.png")} class="testinyprojet" alt='louay'></img>
-    <h3 class="testiny">Testiny</h3>
-    <p class="testinydesc">Web application for recruiters to test the devolopers  </p>
-    <p p class="tech2">Technology Used : ReactJS NestJS MySQL</p>
-    </div>
-  </div>
+          <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="project-item pb-0">
+              <h4>CTF Plateform </h4>
+              <p><em>
+              This project consists on developing a CTF plateform <br></br>
+              The app is already Dockerized <br></br>
+              technology used : Laravel , MySQL , Docker <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/CTF-plateform.git'>CTF-plateform Repo</a> 
+                </em></p>
+            </div>
+            <div class="project-item">
+              <h4>TODO-app</h4>
+              <p><em>
+              This project consists on developing a TODO app where user can add tasks , update and delete tasks  
+               <br></br>
+              The app is already Dockerized and hosted in a k8s cluster<br></br>
+              technology used : Laravel , MySQL , Docker , minikube  <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/ToDo-APP.git'>TODO_APP Repo</a> 
+                </em></p>
+            </div>
+            <div class="project-item">
+              <h4>Testiny APP  </h4>
+          
+              <p><em>
+              This project consists on developing a web application where we have recruiters and developpers 
+              the recruiters can add tasks , update and delete tasks and propose quizs to the Developer
+              the plateform contains also a fraud detection modal developed with the help of my teammate  
+               <br></br>
+              The app is already Dockerized<br></br>
+              technology used : ReactJS , NestJS , MySQL , Docker , Flask   <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/Testiny-app.git'>TESTINY_APP Repo</a> 
+                </em></p>
+              
+            </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="project-item">
+              <h4>Tmkiin Insurance</h4>
+              
+              <p><em>
+              Tmkiin Insurance is a web application that consists on dveloping a web application to manage health insurance
+              and car insurance too   
+               <br></br>
+              technology used : Laravel , MySQL    <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/Tmkiin-Insurance-.git'>Tmkiin_Insurance Repo</a> 
+                </em></p>
+              
+            </div>
+            
+            <div class="project-item">
+            <h4>WiiN App</h4>
+            <p><em>
+             WiiN App is a web application that consists on dveloping a web application to regroup some services 
+              and propose to the user the services that he desire and near to him   <br></br>
+              The app is already Dockerized<br></br>
+              
+              technology used : Laravel , MySQL , Docker   <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/WiiN-APP.git'>WiiN_APP Repo</a> 
+                </em></p>
+              
+            </div>
+            <div class="project-item">
+            <h4>Zabbix Deployment </h4>
+            <p><em>
+            In this project we managed to deploy Zabbix for the monitoring of a network architecture  <br></br>
+              
+               <br></br>
+              technology used : Zabbix , Linux , GNS3 , Networking basics   <br></br>
+             
+                </em></p>
+              
+            </div>
+            </div>
+            </div>
 
               
                 
-              </div>
-              </div>
+          
+  </div>
+             
         
-    </div>
+    
       </section>
       <section id="services" class="services">
       <div class="container">
