@@ -49,9 +49,7 @@ function App() {
       <div class="container" data-aos="fade-up">
       <div class="section-title">
           <h2>About</h2>
-          <p>I m a Network Engineering Student in National Institute of Applied Science and Technology . I have some 
-            skills on the web developpment . I m also cybersecurity enthusiast with some skills on the web security and forensics .
-            and also devops enthusiast .
+          <p>I am a Network Engineering Student in National Institute of Applied Science and Technology and a devops enthusiast. I have some skills on web developpment. I'm also a cybersecurity enthusiast with some skills on web security and forensics.
           </p>
         </div>
         <div class="row">
