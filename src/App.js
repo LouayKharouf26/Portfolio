@@ -117,6 +117,14 @@ function App() {
     <span class="skill">Docker<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
+  <div class="progress">
+    <span class="skill">Terraform<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Ansible<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
   </div>
   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
   <div class="progress">
@@ -142,6 +150,14 @@ function App() {
   <div class="progress">
     <span class="skill">K8S<i class="val">30%</i></span>
     <ProgressBar completed={30} />
+  </div>
+  <div class="progress">
+    <span class="skill">Jenkins<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Azure<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
   </div>
   </div>
         </div>
@@ -260,6 +276,20 @@ function App() {
               The app is already Dockerized<br></br>
               technology used : ReactJS , NestJS , MySQL , Docker , Flask   <br></br>
               Github Repo :<a href='https://github.com/Louaykharouf26/Testiny-app.git'>TESTINY_APP Repo</a> 
+                </em></p>
+              
+            </div>
+            <div class="project-item">
+              <h4>CloudiVops  </h4>
+          
+              <p><em>
+              This project was made as our end of year project it is about a web application that gives the hand to the user 
+              to create the desired infrastructure in azure then it gives him the possibility to configure , monitor and even delete the 
+              ressources 
+               <br></br>
+  
+              technology used : ReactJS , ExpressJS , MongoDB , Docker , Ansible , Terraform , Jenkins ,Azure   <br></br>
+             
                 </em></p>
               
             </div>
