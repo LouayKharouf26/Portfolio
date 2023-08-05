@@ -330,6 +330,18 @@ function App() {
                 </em></p>
               
             </div>
+            <div class="project-item">
+            <h4>FilesRepo App</h4>
+            <p><em>
+             FilesRepo App is a web application that consists on dveloping a web application to manage the storage account
+             made by the user by adding and deleting files   <br></br>
+              The app is already Dockerized<br></br>
+              
+              technology used : ReactJS , MongoDB , ExpressJS , Azure , Docker , Terraform , K8S , Jenkins   <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/FilesReposProject.git'>FilesRepo Repo</a> 
+                </em></p>
+              
+            </div>
             </div>
             </div>
 
