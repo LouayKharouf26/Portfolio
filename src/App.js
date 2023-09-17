@@ -123,6 +123,10 @@ function App() {
     <span class="skill">Ansible<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
+  <div class="progress">
+    <span class="skill">NodeJS<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
   </div>
   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
   <div class="progress">
@@ -155,6 +159,10 @@ function App() {
   </div>
   <div class="progress">
     <span class="skill">Azure<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">ArgoCD<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
   </div>
@@ -213,10 +221,17 @@ function App() {
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Web development Intern</h4>
+              <h4>Web developper</h4>
               <h5>July 2022 - Auguest 2022</h5>
               <p><em>Tmkiin dev Informatique ,Gabes, Tunisia </em></p>
               <p>The development of a web application for car and health insurance using laravel  </p>
+            </div>
+            <div class="resume-item">
+              <h4>FullStack , Devops Engineer </h4>
+              <h5>July 2023 - September 2023</h5>
+              <p><em>Tmkiin dev Informatique ,Gabes, Tunisia </em></p>
+              <p>Development of a BNPL (Buy Now Pay Later) payment system that allows purchasing services and paying for
+them in installments later  </p>
             </div>
             <h3 class="resume-title">Organisations</h3>
             <div class="resume-item">
@@ -291,6 +306,23 @@ function App() {
                 </em></p>
               
             </div>
+            <div class="project-item">
+              <h4>BNPL System  </h4>
+          
+              <p><em>
+              
+Development of a BNPL (Buy Now Pay Later) payment system that allows purchasing services and paying for
+them in installments later. <br></br>
+•The application is developed using Laravel and is compatible with all e-commerce websites. <br></br>
+•Participation in meetings for task planning and design, as we adopted the SCRUM methodology.<br></br>
+•Design of a CI/CD pipeline for deploying the system to a Kubernetes cluster (AKS).<br></br>
+               
+  
+              technology used : Laravel  , MySQL , Docker , ArgoCD  , Jenkins ,AKS  <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/BNPL-System.git'>BNPL-System Repo</a>
+                </em></p>
+              
+            </div>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             
@@ -298,8 +330,12 @@ function App() {
               <h4>Tmkiin Insurance</h4>
               
               <p><em>
-              Tmkiin Insurance is a web application that consists on dveloping a web application to manage health insurance
-              and car insurance too   
+              Development of a web application for managing car and health insurance.<br></br>
+              • We adopted the SCRUM methodology. <br></br>
+              • I collaborated with the entire team (project manager, designer, a Flutter developer, and a Laravel developer) for
+the planning and design phases of the application.<br></br>
+• Conducted meetings with the Flutter developer to design the backend part to align it with the mobile
+application.
                <br></br>
               technology used : Laravel , MySQL    <br></br>
               Github Repo :<a href='https://github.com/Louaykharouf26/Tmkiin-Insurance-.git'>Tmkiin_Insurance Repo</a> 
