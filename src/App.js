@@ -213,7 +213,7 @@ function App() {
             <div class="resume-item">
             
               <p>
-              CCNA Routing and Switching: Introduction to Networks
+              GCP Associate Cloud Engineer
 
                 </p>
             </div>
