@@ -448,7 +448,7 @@ application.
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+216 29302491</p>
+                <p>+216 29322889</p>
               </div>
 
             </div>
