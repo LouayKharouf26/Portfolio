@@ -378,6 +378,20 @@ application.
                 </em></p>
               
             </div>
+            <div class="project-item">
+            <h4>Monitoring of k8s Multi-cluster Architecture  App</h4>
+            <p><em>
+              Provision 2 AKS clusters using Terraform 
+              Configure the clusters by a Jenkins Pipeline (installing prometheus inside both of them)
+              Provision a virtual machine where i added prometheus server and grafana 
+              monitor the clusters using grafana 
+                 <br></br>
+              
+              technology used : Azure , Terraform , K8S , Jenkins , AKS  <br></br>
+              Github Repo :<a href='https://github.com/Louaykharouf26/Multi-Cluster-Monitoring.git'>Multi-Cluster Monitoring Repo</a> 
+                </em></p>
+              
+            </div>
             </div>
             </div>
 
