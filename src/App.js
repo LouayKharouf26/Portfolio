@@ -32,9 +32,9 @@ function App() {
   </header>
   <section id="home" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Louay Kharouf</h1>
-      <p class="typewriter ">Network Engineering Student @ INSAT | CTF Player</p>
-      <p  class="typewriter ">Web Developer | DevOps&Cloud enthusiast</p>
+      <h1>Louay Khrouf</h1>
+      <p class="typewriter ">Network Engineering Student @INSAT | R&D Intern @Berger-Levrault </p>
+      <p  class="typewriter "> DevOps&Cloud enthusiast | Web Developer | CTF Player</p>
       <div class="social-links">
         <a href="https://www.facebook.com/louay.kharouf/" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://github.com/Louaykharouf26" class="google-plus"><i class="bx bxl-github"></i></a>
@@ -49,7 +49,9 @@ function App() {
       <div class="container" data-aos="fade-up">
       <div class="section-title">
           <h2>About</h2>
-          <p>I am a Network Engineering Student in National Institute of Applied Science and Technology and a devops enthusiast. I have some skills on web developpment. I'm also a cybersecurity enthusiast with some skills on web security and forensics.
+          <p>
+            Currently an R&D Intern in the GreenIT field at Berger-Levrault the office of Montpellier .
+            I am a Network Engineering Student in National Institute of Applied Science and Technology and a devops enthusiast. I have some skills on web developpment. I'm also a cybersecurity enthusiast with some skills on web security and forensics.
           </p>
         </div>
         <div class="row">
@@ -57,22 +59,22 @@ function App() {
            <img src={require("./linkedin1.png")} class="img-fluid" alt='louay'></img>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3>Network Engineering Student &amp; Web Developer &amp; Cybersecurity Enthusiast &amp; CTF player &amp; Devops Enthusiast.</h3>
+          <h3>Network Engineering Student &amp; R&D Intern @Berger-Levrault &amp; Devops & Cloud Enthusiast &amp;Web Developer &amp; Cybersecurity Enthusiast &amp; CTF player .</h3>
           <p class="fst-italic ">
-              Frontend - Backend - Web security - Forensics - Devops
+          Devops - GreenIT - Frontend - Backend - Web security - Forensics 
             </p>
           <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>26 January 2000</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+216 29 302 491 </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tunis, Tunisia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+33 6 35 02 70 13 </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Montpellier, France</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>2nd year bachelor degree</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>3rd year bachelor degree</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
@@ -90,28 +92,15 @@ function App() {
         <div class="row skills-content">
 
 <div class="col-lg-6">
-
-  <div class="progress">
-    <span class="skill">HTML <i class="val">100%</i></span>
-    <ProgressBar completed={100} />
-  </div>
-  <div class="progress">
-    <span class="skill">CSS <i class="val">100%</i></span>
-    <ProgressBar completed={100} />
-  </div>
-  <div class="progress">
-    <span class="skill">JavaScript <i class="val">50%</i></span>
+<div class="progress">
+    <span class="skill">Dynatrace<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
   <div class="progress">
-    <span class="skill">Forensics<i class="val">50%</i></span>
+    <span class="skill">Neoload<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
-  <div class="progress">
-    <span class="skill">Linux<i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
+<div class="progress">
     <span class="skill">Docker<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
@@ -124,47 +113,114 @@ function App() {
     <ProgressBar completed={50} />
   </div>
   <div class="progress">
-    <span class="skill">NodeJS<i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  </div>
-  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-  <div class="progress">
-    <span class="skill">Laravel <i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
-    <span class="skill">React JS <i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
-    <span class="skill">NestJS<i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
-    <span class="skill">MySQL<i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
-    <span class="skill">Web Security<i class="val">30%</i></span>
-    <ProgressBar completed={30} />
-  </div>
-  <div class="progress">
-    <span class="skill">K8S<i class="val">30%</i></span>
-    <ProgressBar completed={30} />
-  </div>
-  <div class="progress">
     <span class="skill">Jenkins<i class="val">50%</i></span>
-    <ProgressBar completed={50} />
-  </div>
-  <div class="progress">
-    <span class="skill">Azure<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
   <div class="progress">
     <span class="skill">ArgoCD<i class="val">50%</i></span>
     <ProgressBar completed={50} />
   </div>
+  <div class="progress">
+    <span class="skill">Prometheus<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Grafana<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">K8S<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Gitlab<i class="val">30%</i></span>
+    <ProgressBar completed={30} />
+  </div>
+  <div class="progress">
+    <span class="skill">AWS<i class="val">30%</i></span>
+    <ProgressBar completed={30} />
+  </div>
+  <div class="progress">
+    <span class="skill">AKS<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Azure<i class="val">60%</i></span>
+    <ProgressBar completed={60} />
+  </div>
+  <div class="progress">
+    <span class="skill">GCP<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+
+
+  </div>
+  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  <div class="progress">
+    <span class="skill">Web Security<i class="val">30%</i></span>
+    <ProgressBar completed={30} />
+  </div>
+  <div class="progress">
+    <span class="skill">Dynatrace Carbon module <i class="val">40%</i></span>
+    <ProgressBar completed={40} />
+  </div>
+  <div class="progress">
+    <span class="skill">JoularJX , Intel PCM , Scaphandre , PowerJoular<i class="val">50%</i></span>
+    <ProgressBar completed={40} />
+  </div>
+  <div class="progress">
+    <span class="skill">Laravel <i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+  <div class="progress">
+    <span class="skill">JavaScript <i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+  <div class="progress">
+    <span class="skill">SpringBoot <i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Maven<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+
+  <div class="progress">
+    <span class="skill">NodeJS<i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+  <div class="progress">
+    <span class="skill">React JS <i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+  <div class="progress">
+    <span class="skill">NestJS<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">MySQL<i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+  <div class="progress">
+    <span class="skill">Web Security<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+
+  <div class="progress">
+    <span class="skill">SonarQube<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+
+
+  <div class="progress">
+    <span class="skill">Forensics<i class="val">50%</i></span>
+    <ProgressBar completed={50} />
+  </div>
+  <div class="progress">
+    <span class="skill">Linux<i class="val">70%</i></span>
+    <ProgressBar completed={70} />
+  </div>
+
   </div>
         </div>
         </div>
@@ -181,15 +237,14 @@ function App() {
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
-              <h4>Louay Kharouf</h4>
+              <h4>Louay Khrouf</h4>
               <p><em>
-              Network Engineering Student , Web developper with some frontend skills and backend basics 
-              Cybersecurity enthusiast and CTF player 
+              Network Engineering Student , R&D Intern @Berger-Levrault , DevOps and Cloud Enthusiast , Cybersecurity Enthusiast and CTF Player 
                 </em></p>
               <ul>
-                <li>Tunis , Tunisia</li>
-                <li>+216 29 302 491</li>
-                <li>louaykharouf@gmail</li>
+                <li>Montpellier , France</li>
+                <li>+33 6 35 02 70 13</li>
+                <li>louaykharouf@gmail.com</li>
               </ul>
             </div>
             <h3 class="resume-title">Education</h3>
@@ -221,18 +276,33 @@ function App() {
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Web developper</h4>
-              <h5>July 2022 - Auguest 2022</h5>
-              <p><em>Tmkiin dev Informatique ,Gabes, Tunisia </em></p>
-              <p>The development of a web application for car and health insurance using laravel  </p>
+              <h4>R&D in the GreenIT Field </h4>
+              <h5>April 2024 - Present</h5>
+              <p><em>Berger-Levrault , Montpellier, France </em></p>
+              •Instrumentation for energy consumption analysis <br></br>
+•Identifying energy hotspots<br></br>
+•Comparing alternative desing solutions (e.g., RPC vs Rest, Mono vs Microservices)<br></br>
+•Perfomance load testing for energy measrument<br></br>
+•Application deployment on cloud and on premise<br></br>
+•PowerJoular , Intel PCM , Neoload , Dynatrace , Java , SpringBoot , Docker , AWS , Gitlab , Scrum  
             </div>
             <div class="resume-item">
               <h4>FullStack , Devops Engineer </h4>
               <h5>July 2023 - September 2023</h5>
               <p><em>Tmkiin dev Informatique ,Gabes, Tunisia </em></p>
-              <p>Development of a BNPL (Buy Now Pay Later) payment system that allows purchasing services and paying for
-them in installments later  </p>
+              <p>•Development of a payment system <br></br>
+                 •Design of a CI/CD pipeline <br></br>
+                 •Laravel , Docker , Scrum , Jenkins , Github , AKS (Azure Kubernetes Service) , K8S , MySQL</p>
             </div>
+            <div class="resume-item">
+              <h4>Web developper</h4>
+              <h5>July 2022 - Auguest 2022</h5>
+              <p><em>Tmkiin dev Informatique ,Gabes, Tunisia </em></p>
+              <p>Development of a web application for managing car and health insurance. <br></br>
+•Development of the Frontend website and the backend API to be used for the flutter mobile application <br></br>
+•Laravel , MySQL , Scrum </p>
+            </div>
+
             <h3 class="resume-title">Organisations</h3>
             <div class="resume-item">
               <h4>Securinets  INSAT</h4>
@@ -436,7 +506,7 @@ application.
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Tunis , Tunisia </p>
+                <p>Montpellier , France </p>
               </div>
 
               <div class="email">
@@ -448,7 +518,7 @@ application.
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+216 29322889</p>
+                <p>+33 6 35 02 70 13</p>
               </div>
 
             </div>
