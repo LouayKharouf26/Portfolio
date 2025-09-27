@@ -33,7 +33,8 @@ function App() {
   <section id="home" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Louay Khrouf</h1>
-      <p class="typewriter ">Network Engineering Student @INSAT | R&D Intern @Berger-Levrault </p>
+      <p class="typewriter "> R&D Engineer @Berger-Levrault | PhD Student @INRIA Lille   </p>
+       <p class="typewriter "> Graduated from @INSAT </p>
       <p  class="typewriter "> DevOps&Cloud enthusiast | Web Developer | CTF Player</p>
       <div class="social-links">
         <a href="https://www.facebook.com/louay.kharouf/" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -73,8 +74,8 @@ function App() {
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>3rd year bachelor degree</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Engineer degree and currently PhD student</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
@@ -239,7 +240,7 @@ function App() {
             <div class="resume-item pb-0">
               <h4>Louay Khrouf</h4>
               <p><em>
-              Network Engineering Student , R&D Intern @Berger-Levrault , DevOps and Cloud Enthusiast , Cybersecurity Enthusiast and CTF Player 
+              PhD student @INRIA Lille , R&D Engineer @Berger-Levrault , DevOps and Cloud Enthusiast , Cybersecurity Enthusiast and CTF Player 
                 </em></p>
               <ul>
                 <li>Montpellier , France</li>
@@ -258,10 +259,18 @@ function App() {
             </div>
             <div class="resume-item">
               <h4>Engineering Course </h4>
-              <h5>2021 - Now</h5>
+              <h5>2021 - 2024</h5>
               <p><em>National Institute of Applied Sciences Technology (INSAT)</em></p>
               <p>
               I choose to study the Network and Telecommunication Engineering course to get the engineering diplomate 
+                </p>
+            </div>
+                        <div class="resume-item">
+              <h4>PhD Student </h4>
+              <h5>2025 - now</h5>
+              <p><em>Inria - Lille University </em></p>
+              <p>
+              To continue with the GreenIT internship i joined INRIA as a PhD student in order to investigate deeper the field of GreenIT and to work on the identification of energy hotspots to be more specific identify the energy consumption related to code changes. 
                 </p>
             </div>
             <h3 class="resume-title">Certificates</h3>
@@ -275,9 +284,20 @@ function App() {
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+              <h4>R&D Engineer </h4>
+              <h5>February 2025 - Present</h5>
+              <p><em>Berger-Levrault , Montpellier, France </em></p>
+              •PhD thesis Cifre <br></br>
+•Identifying energy hotspots<br></br>
+•Drift Analysis<br></br>
+•Identifying energy consumption of code changes based on the developer's tests<br></br>
+•Gitlab, Java, SpringBoot, Linux ...  <br></br>
+
+            </div>
             <div class="resume-item">
               <h4>R&D in the GreenIT Field </h4>
-              <h5>April 2024 - Present</h5>
+              <h5>April 2024 - September 2024</h5>
               <p><em>Berger-Levrault , Montpellier, France </em></p>
               •Instrumentation for energy consumption analysis <br></br>
 •Identifying energy hotspots<br></br>
@@ -451,7 +471,7 @@ application.
             <div class="project-item">
             <h4>Monitoring of k8s Multi-cluster Architecture  App</h4>
             <p><em>
-              Provision 2 AKS clusters using Terraform 
+              Provision 2 AKS clusters using Terraform,
               Configure the clusters by a Jenkins Pipeline (installing prometheus inside both of them)
               Provision a virtual machine where i added prometheus server and grafana 
               monitor the clusters using grafana 
@@ -459,6 +479,19 @@ application.
               
               technology used : Azure , Terraform , K8S , Jenkins , AKS  <br></br>
               Github Repo :<a href='https://github.com/Louaykharouf26/Multi-Cluster-Monitoring.git'>Multi-Cluster Monitoring Repo</a> 
+                </em></p>
+              
+            </div>
+                        <div class="project-item">
+            <h4>Dynatrace deployment</h4>
+            <p><em>
+              Provision EKS cluster using Terraform, 
+Deployment of Dynatrace on the EKS and fetching metrics, 
+Automate the process of provisionning and deployment and metrics fetching using Gitlab CI 
+                 <br></br>
+              
+              technology used : Gitlab CI , Terraform , K8S , EKS , Dynatrace  <br></br>
+              Github Repo :<a href='https://github.com/LouayKharouf26/Dynatrace-Deployment'>Dynatrace Deployment</a> 
                 </em></p>
               
             </div>
