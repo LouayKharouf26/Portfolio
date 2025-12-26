@@ -833,7 +833,6 @@ for sustainable software development
     </div>
   </div>
 </section>
-
 <section id="contact" className="contact">
   <div className="container" data-aos="fade-up">
     <div className="section-title">
@@ -870,9 +869,20 @@ for sustainable software development
 
       {/* Right: Netlify Contact Form */}
       <div className="col-lg-8 mt-5 mt-lg-0">
+
+        {/* Success message */}
+        {typeof window !== "undefined" &&
+          window.location.hash.includes("success=true") && (
+            <div className="alert alert-success mb-4" role="alert">
+              ✅ Your message has been sent successfully. I’ll get back to you
+              soon.
+            </div>
+          )}
+
         <form
           name="contact"
           method="POST"
+          action="/#contact?success=true"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           className="php-email-form"
@@ -938,6 +948,7 @@ for sustainable software development
     </div>
   </div>
 </section>
+
 
 
   </main>
