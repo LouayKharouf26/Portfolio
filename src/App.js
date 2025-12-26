@@ -882,7 +882,7 @@ for sustainable software development
         <form
           name="contact"
           method="POST"
-          action="/#contact?success=true"
+          action="/?success=true#contact"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           className="php-email-form"
