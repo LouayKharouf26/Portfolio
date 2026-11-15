@@ -35,9 +35,9 @@ function App() {
   <section id="home" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Louay Khrouf</h1>
-      <p class="typewriter "> R&D Engineer @Berger-Levrault | PhD Student @INRIA Lille   </p>
-       <p class="typewriter "> Graduated from @INSAT </p>
-      <p  class="typewriter "> DevOps&Cloud enthusiast | Web Developer | CTF Player</p>
+      <p class="typewriter "> R&D Engineer — DevOps @ Berger-Levrault | PhD Student @INRIA Lille   </p>
+     {/*  <p class="typewriter "> Graduated from @INSAT </p> -->*/}
+      <p  class="typewriter "> DevOps, Cloud & Cybersecurity Enthusiast | Web Developer  {/* | CTF Player  */}</p>
       <div class="social-links">
    
 
@@ -55,7 +55,7 @@ function App() {
     <div className="section-title">
       <h2>About</h2>
       <p>
-        <strong>R&amp;D Engineer at Berger-Levrault (France)</strong> and{" "}
+        <strong>R&amp;D Engineer in DevOpsat Berger-Levrault (France)</strong> and{" "}
         <strong>PhD Student at Inria Lille</strong>, working on optimizing the
         energy consumption of software systems through code transformation by
         analyzing the impact of code changes on software energy usage.
@@ -85,7 +85,7 @@ function App() {
         </h3>
 
         <p className="fst-italic">
-          DevOps – GreenIT – Cloud – Backend – Frontend – Web Security – Forensics
+          DevOps – GreenIT – Cloud – Kubernetes – Backend – Frontend – Web Security – Forensics
         </p>
 
         <div className="row mt-4">
@@ -408,21 +408,21 @@ function App() {
             <div class="resume-item pb-0">
               <h4>Louay Khrouf</h4>
               <p><em>
-              PhD student @INRIA Lille , R&D Engineer @Berger-Levrault , DevOps and Cloud Enthusiast , Cybersecurity Enthusiast and CTF Player 
+             R&D Engineer - DevOps @Berger-Levrault , PhD student @INRIA Lille , DevOps, Cloud and Cybersecurity Enthusiast  
                 </em></p>
               <ul>
-                <li>Montpellier , France</li>
+                <li>Villeneuve-d&apos;Ascq, Hauts-de-France</li>
                 <li>+33 6 35 02 70 13</li>
                 <li>louaykharouf@gmail.com</li>
               </ul>
             </div>
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Integrated preparatory course</h4>
-              <h5>2018 - 2021</h5>
-              <p><em>National Institute of Applied Sciences Technology (INSAT)</em></p>
+              <h4>PhD Student </h4>
+              <h5>2025 - now</h5>
+              <p><em>Inria - Lille University </em></p>
               <p>
-              I study the pre-engineering courses in the field MPI 
+               PhD CIFRE in collaboration with Inria Lille and Berger-Levrault, focused on identifying energy hotspots in software and analyzing the impact of code changes on energy consumption.
                 </p>
             </div>
             <div class="resume-item">
@@ -430,15 +430,15 @@ function App() {
               <h5>2021 - 2024</h5>
               <p><em>National Institute of Applied Sciences Technology (INSAT)</em></p>
               <p>
-              I choose to study the Network and Telecommunication Engineering course to get the engineering diplomate 
+              Network and Telecommunication Engineering course specialized in DevOps and Cloud Computing.
                 </p>
             </div>
-                        <div class="resume-item">
-              <h4>PhD Student </h4>
-              <h5>2025 - now</h5>
-              <p><em>Inria - Lille University </em></p>
+            <div class="resume-item">
+              <h4>Integrated preparatory course</h4>
+              <h5>2018 - 2021</h5>
+              <p><em>National Institute of Applied Sciences Technology (INSAT)</em></p>
               <p>
-              To continue with the GreenIT internship i joined INRIA as a PhD student in order to investigate deeper the field of GreenIT and to work on the identification of energy hotspots to be more specific identify the energy consumption related to code changes. 
+              Pre-engineering courses 
                 </p>
             </div>
             <h3 class="resume-title">Certificates</h3>
@@ -453,14 +453,15 @@ function App() {
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
-              <h4>R&D Engineer </h4>
+              <h4>R&D Engineer - DevOps </h4>
               <h5>February 2025 - Present</h5>
               <p><em>Berger-Levrault , Montpellier, France </em></p>
-              •PhD thesis Cifre <br></br>
-•Identifying energy hotspots<br></br>
-•Drift Analysis<br></br>
-•Identifying energy consumption of code changes based on the developer's tests<br></br>
-•Gitlab, Java, SpringBoot, Linux ...  <br></br>
+              {/*•PhD thesis Cifre <br></br> */}
+              •Analyzing energy consumption and performance impacts of source-code changes across software versions using unit tests.<br></br>
+•Developing automated solutions for energy and performance measurement and regression detection across software versions.<br></br>
+•Integrating automated energy and performance analysis into existing CI/CD pipelines.<br></br>
+•Automating software builds, testing, and measurement workflows using Java, Maven, Python, and Bash.<br></br>
+•Java, Spring Boot, GitLab CI/CD, Docker, Linux, Bash, Maven, Python, PostgreSQL, JaCoCo, JUnit.  <br></br>
 
             </div>
             <div class="resume-item">
@@ -756,6 +757,51 @@ energy-efficient software in industrial contexts.
     {/* ===================== CONFERENCE ARTICLES ===================== */}
     <div className="research-group mt-5">
       <h3 className="research-group-title">Conference Articles</h3>
+
+      <div className="research-item">
+        <div className="research-header">
+          <div className="research-meta">
+            <h4 className="research-title">Can We Spot Energy Regressions Using Developers&apos; Tests? An Industrial Replication</h4>
+            <div className="research-authors">Louay Khrouf, Anas Shatnawi, Romain Rouvoy</div>
+            <div className="research-venue">
+              <span className="research-editor">34th IEEE/ACM International Conference on Program Comprehension (ICPC)</span>
+              <span className="research-sep"> • </span>
+              <span className="research-year">2026</span>
+            </div>
+          </div>
+
+          <div className="research-actions">
+            <a
+              href="https://hal.science/hal-05527295v1"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-primary btn-sm"
+            >
+              HAL
+            </a>
+
+            <button
+              className="btn btn-outline-secondary btn-sm ms-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#abs-c-2"
+              aria-expanded="false"
+              aria-controls="abs-c-2"
+            >
+              Abstract
+            </button>
+          </div>
+        </div>
+
+        <div id="abs-c-2" className="collapse research-abstract">
+          <div className="research-abstract-inner">
+            <p className="mb-0">
+         Producing energy-efficient software is gaining increasing attention in both industry and research communities. In this context, the company Berger-Levrault, an international software publisher, aims to better understand and monitor the energy behaviour of its software systems to support the development of more energy-efficient products. However, achieving this objective remains challenging because developers lack feedback mechanisms that show how their implementation and testing choices affect the software system's energy consumption.
+To address this limitation, the literature highlights a notable study that could serve as a foundation for Berger-Levrault to enhance developers' energy awareness. This study investigated whether developers' test suites can detect energy regressions in Continuous Integration (CI) environments. Our goal is to evaluate if its findings hold in a real-world setting and to provide further evidence on the feasibility and reliability of detecting energy regressions using developers' test suites in practical CI workflows. The results confirm that developers' tests can reliably identify energy regressions while maintaining stable performance and energy metrics. Finally, the approach enabled the classification of changes across commits and the manual validation of detected regressions, reinforcing its feasibility and reliability in an industrial context.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="research-item">
         <div className="research-header">
